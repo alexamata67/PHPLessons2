@@ -7,14 +7,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
   <body>
-
+   
   <form method="GET">
     <input type="text" name="class">
     <button>SUBMIT</button>
 </form>  
 
   <?php
+      //Gets the name of the class from the URL into the input 
       $name = $_GET['class'];
+      //Finishes the sentence from class name 
       echo $name. " is my favorite class!";
   ?>
   </body>
