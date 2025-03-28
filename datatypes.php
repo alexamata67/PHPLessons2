@@ -20,8 +20,8 @@
 
 
     //array
-    $names = array("Alexa","Vanessa","Juliett")
-   echo $names['0'];
+    $names = array("Alexa", "Vanessa", "Juliett");
+     echo $names['2'];
 
   ?>
   </body>
