@@ -21,7 +21,7 @@
 
     //array
     $names = array("Alexa","Vanessa","Juliett")
-    echo $names ['2'];
+   echo $names['0'];
 
   ?>
   </body>
