@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-</head>
+  </head>
+
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="index.php">Navbar</a>
@@ -34,24 +35,36 @@
       </li>
     </ul>
   </div>
-</nav>
-     
-   
-  <?php
-   //string
-   $name = "Coding is so fun";
+</nav>   
+<?php
 
-   //Integer
-    $name = 36;
+//While Loop
+$x = 1;
+//Do while loop
+do {
+    echo "Hi there<br>";
+    $x++;
+}
+while ($x <= 5);
 
-    //float
-    $name = 23.345;
+//For Loop shows how many variables you need.
+for ($x = 0; $x <= 3; $x++) {
+    echo "Hi<br>";
+
+}    
+
+//Foreach Loop only shows how many loops you include. 
+$array = array("Alexa", "Vanessa", "Juliett");
+foreach ($array as $loopdata) {
+    echo "My name is ".$loopdata. "<br>";
 
 
-    //array
-    $names = array("Alexa", "Vanessa", "Juliett");
-     echo $names['2'];
+}
 
-  ?>
+?>
+
+
+
+
 </body>
 </html>

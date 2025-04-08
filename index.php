@@ -31,6 +31,9 @@
       <li class="nav-item active">
         <a class="nav-link" href="calendar.php">Calendar</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="loops.php">Loops</a>
+      </li>
     </ul>
   </div>
 </nav>
