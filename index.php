@@ -6,7 +6,15 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   </head>
+<style>
 
+  body {
+  background-color:rgb(216, 145, 189);
+  }
+
+  
+</style>  
+  
 
 <body>
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -33,6 +41,9 @@
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="loops.php">Loops</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="arrays.php">Arrays</a>
       </li>
     </ul>
   </div>
