@@ -47,6 +47,12 @@ background-color:rgb(216, 145, 189);
       <li class="nav-item active">
         <a class="nav-link" href="functions.php">Functions</a>
       </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="superglobals.php">Super Globals</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="calculator.php">Calculator</a>
+      </li>
     </ul>
   </div>
 </nav>
