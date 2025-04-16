@@ -52,25 +52,12 @@
   </div>
 </nav>
 
-<section>
-    <div class ="somemaincontent">
-      <h1>Hi there!</h1>
-    </div>  
+<?php
 
+setcookie("name", "Alexa", time() + 172800);
 
+$_SESSION['Name'] = "Alexa";
+?>
 
-</section>
-   
-  <form method="GET">
-    <input type="text" name="class">
-    <button>SUBMIT</button>
-</form>  
-
-  <?php
-      //Gets the name of the class from the URL into the input 
-      $name = $_GET['class'];
-      //Finishes the sentence from class name 
-      echo $name. " is my favorite class!";
-  ?>
 </body>
 </html>
