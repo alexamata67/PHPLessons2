@@ -50,6 +50,12 @@
 </nav>
 </body>
 
+     <?php
+     include "includes/header.php";
+    $array= array("Alexa","Vanessa ","isabel","juan","juliett");
+    echo $array[1];
+    ?>
+  
 
 
 </html>
